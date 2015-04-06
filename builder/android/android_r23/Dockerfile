@@ -10,4 +10,4 @@ RUN sudo apt-get update && \
     sudo tar -C /usr/local -xzf android-sdk_r23-linux.tgz && \
     sudo chown -R ubuntu:ubuntu /usr/local/android-sdk-linux && \
     rm android-sdk_r23-linux.tgz && \
-    (while :; do echo 'y'; sleep 2; done) | /usr/local/android-sdk-linux/tools/android update sdk --filter platform,tool,platform-tool,extra,build-tools-19.1.0 --no-ui --force -a
+    (while :; do echo 'y'; sleep 2; done) | /usr/local/android-sdk-linux/tools/android update sdk --filter platform,tool,platform-tool,extra,build-tools-22.0.1 --no-ui --force -a
